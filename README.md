@@ -90,4 +90,10 @@ It includes extensions for:
  Shap values can be visualised as forces in forceplot
 
 
+**Testing Concept Activation Vectors (TCAV)**
 
+Concept Activation Vectors (CAVs)
+
+    - A neural Network's internal state in terms of human-friendly concepts
+    - Defined using examples which show the concept
+    
