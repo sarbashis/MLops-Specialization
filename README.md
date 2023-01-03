@@ -22,7 +22,7 @@
         - Deep Neural Networks (DNNs) can be fooled into misclassifying inputs with no resemblance to the true category.
 
 Reference
-1. For more information see [DARPA's Explainable Aritification Intelligence Program](./MLops-Specialization/Week-5/2850-Article Text-6600-1-10-20190624.pdf)
+1. For more information see [DARPA's Explainable Aritification Intelligence Program](./MLops-Specialization/Week-5/ref/2850-Article Text-6600-1-10-20190624.pdf)
 
 #### Interpretability
 
