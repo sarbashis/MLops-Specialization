@@ -38,3 +38,56 @@ Categorizing Model Interpretation Methods:
 
 - Local or Global
 
+Intrinsically Interoretable Models
+- Learn model are easy to understand the relationship
+- Feature importance:
+    Linear regression model, t-statistic
+
+ TesorFlow Lattice:
+
+
+Good Reference on '**Interpretable Machine Learning**'   
+https://christophm.github.io/interpretable-ml-book/
+
+**Model Agnostic Methods**
+
+This methods separate explanation from the machine learning model
+
+    Desised Characteristics:
+        - Model Flexibility
+        - Explanation Flexibility
+        - Representation Flexibility
+
+**Partial Dependence Plots**
+    
+**Permutation Feature Importance**
+
+
+**Shapley Value**
+It is a method for assigning payouts to players depending on their contribution to the total
+Advantages of the Shapley Values
+  
+    - Based on Solid theoritical foundation. Satisfies Effieciency, Symmertry, Dummy, and Addtivitiy properties
+
+Disadvantages:
+
+    - Conputationally expensive
+    - Easily misintergreted
+    - Alwasys uses all the features, so not good for explanation of only a few features
+    - No prediction model.
+    - Does not work well when features are not correlated    
+
+Tool: Open source tool named SHapley Addtive exPlanation(SHAP). 
+Github: https://github.com/slundberg/shap
+
+It includes extensions for:
+ 
+ 1. TreeExplainer: High-speed exact algorithm for tree ensembles
+ 2. DeepExplainer: High-speed approximation algorithm for SHAP values in deep learning models
+ 3. GradientExplaniner: Combines ideas from Interatred Gradients, SHAP abd SmoothGrad into a single expected value equation.
+ 4. KernelExplainer: uses a specially-weighted local linear regression to estimate SHAP values for any model
+
+ Shap values can be visualised as forces in forceplot
+
+
+
