@@ -38,7 +38,7 @@ Categorizing Model Interpretation Methods:
 
 - Local or Global
 
-Intrinsically Interoretable Models
+Intrinsically Interpretabile Models
 - Learn model are easy to understand the relationship
 - Feature importance:
     Linear regression model, t-statistic
@@ -96,4 +96,24 @@ Concept Activation Vectors (CAVs)
 
     - A neural Network's internal state in terms of human-friendly concepts
     - Defined using examples which show the concept
-    
+
+Ref: [CAV](./Week-5/ref/1711.11279.pdf)
+
+
+**LIME**
+
+Local Interpretable Model-agnostic Explanations(LIME). https://github.com/marcotcr/lime
+
+LIME is popular framework for producing local explanations. The goal is to understand why the model made certain predictions. The system purturb the input sample data and measure the prediction. Then LIME generate a interpreatable model that can keep tract the changes in the input file and corresponding prediction that how it identify local approximation.
+
+
+
+**Google AI Explanations**
+AI Explanation offers three methods of feature attribution:
+
+1. ***Shaply values***
+2. ***Integrated Gradient***: A gradients-based methos to efficiently compute feature attributions with same axiomatic properties as Shapley values
+3. ***XRAI***: eXplantiona with Ranked Areas Integrals
+
+
+
