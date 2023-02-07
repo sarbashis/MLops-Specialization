@@ -109,9 +109,6 @@ Example of Model Servers
  - Exposes REST or gRCP protocol
  
 
-----
-## Week 3
-----
 
 ### Scaling infrastructure
 
@@ -148,3 +145,111 @@ ML Workflows on Kubernetes -- KubeFlow
  
  https://www.youtube.com/watch?v=H06qrNmGqyE
 
+### Online Inference
+
+There are mainly three main areas
+
+- Infrastructure
+- Model Architecture
+- Model Compilation
+
+
+### Batch Inference
+Batch prediction 
+
+### Batch Processsing with ETL
+ETL Pipeline: Extract, Transform and Load
+
+
+----
+## Week 3
+----
+
+### Experiment tracking
+What does it mean to trant experiments?
+
+- Enable you to reproduce a result
+- Enable you to meaning fully compare experiment
+- Manage Code/data version, hyperparameters, environments etc.
+
+**Tools for Experiment Tracking**
+
+Data Version:
+  - Any change in the data can effect the result
+
+**Netptune**
+
+**Pachyderm**
+
+**Delta Lake**
+
+**Git LFS**
+
+**Dolt**
+
+**lakeFS**
+
+**DVC**
+
+**ML-Metadata**
+
+References
+
+Learn more about experiment tracking by checking this two resources out:
+
+[Machine Learning Experiment Tracking](https://towardsdatascience.com/machine-learning-experiment-tracking-93b796e501b0)
+
+[Machine Learning Experiment Management: How to Organize Your Model Development Process](https://neptune.ai/blog/experiment-management)
+
+
+
+
+### Introduction to MLOps
+### TFX Component
+
+
+## Model versions:
+There are many ways of versioning but the most common is semantic versioning
+
+Verion:MAJOR:MINOR:PIPELINE
+MAJOR: Incompatibility in data or target variable
+MINOR: Model performance is improved
+PIPELINE: pipeline of model training is changed
+
+
+## Week 4
+### Monitoring Matters
+- Immediate Data skew
+- Model Staleness
+    - Environment shift
+    - Consumer behavior
+    - Adversarial scenario
+
+- Nagative Feedback Loops
+
+
+**ML Monitoring (funcational monitoring)***
+
+1. Predictive performance
+2. changes in serving data
+3. Metrics used during training
+4. characteristic of features
+
+**System Monitoring (non-functional monitoring)**
+1. System Perform
+2. System Status
+3. System reliability
+
+Monitoring Targets in ML
+Basics: Input and output monitoring
+
+Input Monitoring:
+    - Errors
+    - Changes
+    - Per slice
+
+Prediction Monitoring:
+
+Operational Monitoring
+
+Logging for ML Monitoring
